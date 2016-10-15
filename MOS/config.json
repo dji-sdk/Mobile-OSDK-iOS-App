@@ -99,6 +99,14 @@
                         ],
     "Custom Missions" : [
                          {
+                         "key" : "localMission",
+                         "cmd_id" : "0x45",
+                         "label" : "Execute a Pre-Planned Trajectory",
+                         "info" : "Supported on Linux. Supply json while running executable",
+                         "ack" : true,
+                         "ack_size" : 1,
+                         },
+                         {
                          "key" : "drawACircle",
                          "cmd_id" : "0x3D",
                          "label" : "Draw a Circle",
@@ -126,7 +134,7 @@
                          "key" : "gimbalControlSample",
                          "cmd_id" : "0x40",
                          "label" : "Gimbal Control Sample",
-                         "info" : "Supported on ROS",
+                         "info" : "Supported on ROS/Linux",
                          "ack" : true,
                          "ack_size" : 1,
                          },

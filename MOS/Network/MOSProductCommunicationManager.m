@@ -24,7 +24,7 @@
 }
 
 - (void)registerWithProduct {
-    NSString *registrationID = @"1234EnterRegistrationIDhere";
+    NSString *registrationID = @"2a6729e717a8290fd4ec670e";
     
     [self.appDelegate.model addLog:[NSString stringWithFormat:@"Registering Product with ID: %@", registrationID]];
     [DJISDKManager registerApp:registrationID withDelegate:self];
