@@ -25,6 +25,8 @@
 		8665E4811D41A30300E67120 /* MOSProductCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E4801D41A30300E67120 /* MOSProductCommunicationManager.m */; };
 		8665E4851D4280DC00E67120 /* MOSLogConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E4831D4280DC00E67120 /* MOSLogConsoleViewController.m */; };
 		8665E4861D4280DC00E67120 /* MOSLogConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8665E4841D4280DC00E67120 /* MOSLogConsoleViewController.xib */; };
+		89A81A121E09BE78002385EB /* AdvancedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A81A111E09BE78002385EB /* AdvancedViewController.xib */; };
+		89A81A151E09C056002385EB /* AdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A81A141E09C056002385EB /* AdvancedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +72,9 @@
 		8665E4821D4280DC00E67120 /* MOSLogConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSLogConsoleViewController.h; sourceTree = "<group>"; };
 		8665E4831D4280DC00E67120 /* MOSLogConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSLogConsoleViewController.m; sourceTree = "<group>"; };
 		8665E4841D4280DC00E67120 /* MOSLogConsoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MOSLogConsoleViewController.xib; sourceTree = "<group>"; };
+		89A81A111E09BE78002385EB /* AdvancedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedViewController.xib; sourceTree = "<group>"; };
+		89A81A131E09C044002385EB /* AdvancedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedViewController.h; sourceTree = "<group>"; };
+		89A81A141E09C056002385EB /* AdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +166,9 @@
 				8665E4821D4280DC00E67120 /* MOSLogConsoleViewController.h */,
 				8665E4831D4280DC00E67120 /* MOSLogConsoleViewController.m */,
 				8665E4841D4280DC00E67120 /* MOSLogConsoleViewController.xib */,
+				89A81A111E09BE78002385EB /* AdvancedViewController.xib */,
+				89A81A131E09C044002385EB /* AdvancedViewController.h */,
+				89A81A141E09C056002385EB /* AdvancedViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -208,7 +216,7 @@
 				TargetAttributes = {
 					861CE7A01D3DE46700F33075 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = SXS6Q226V6;
+						DevelopmentTeam = 4GX8G8B9GJ;
 					};
 				};
 			};
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A81A121E09BE78002385EB /* AdvancedViewController.xib in Resources */,
 				861CE7B71D3DE46700F33075 /* LaunchScreen.storyboard in Resources */,
 				8665E4861D4280DC00E67120 /* MOSLogConsoleViewController.xib in Resources */,
 				861CE7D01D3DE7B800F33075 /* config.json in Resources */,
@@ -268,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A81A151E09C056002385EB /* AdvancedViewController.m in Sources */,
 				861CE7E71D3E760500F33075 /* MOSModel.m in Sources */,
 				8665E4851D4280DC00E67120 /* MOSLogConsoleViewController.m in Sources */,
 				8665E47A1D419BFB00E67120 /* MOSMainTabViewController.m in Sources */,
@@ -391,8 +401,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,9 +409,8 @@
 				INFOPLIST_FILE = MOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.am.MOSDJI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -412,8 +419,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,9 +427,8 @@
 				INFOPLIST_FILE = MOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.am.MOSDJI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -11,6 +11,7 @@
 #import "MOSSection.h"
 #import "MOSJSONDynamicController.h"
 #import "MOSLogConsoleViewController.h"
+#import "AdvancedViewController.h"
 
 @interface MOSMainTabViewController ()
 
@@ -43,6 +44,14 @@
         newController.title = section.name;
         [viewControllers addObject:newController];
     }
+
+    // Adding the advanced view
+    AdvancedViewController *lsAdv = [[AdvancedViewController alloc] initWithNibName:@"AdvancedViewController" bundle:[NSBundle mainBundle]];
+    lsAdv.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Advanced"
+                                                    image:[UIImage imageNamed:@"second"]
+                                                      tag:index+1];
+    lsAdv.title = @"Advanced";
+    [viewControllers addObject:lsAdv];
 
     // Adding the log view
     MOSLogConsoleViewController *logVC = [[MOSLogConsoleViewController alloc] initWithNibName:@"MOSLogConsoleViewController" bundle:[NSBundle mainBundle]];
