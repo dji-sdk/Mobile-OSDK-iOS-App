@@ -30,6 +30,7 @@
 
     UIEdgeInsets currentEdgeInset = self.tableView.contentInset;
     self.tableView.contentInset = UIEdgeInsetsMake(20, currentEdgeInset.left, 50, currentEdgeInset.right);
+    self.tableView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.6];
 }
 
 - (void)didReceiveMemoryWarning {

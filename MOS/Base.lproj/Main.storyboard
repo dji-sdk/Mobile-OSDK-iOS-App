@@ -1,44 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XGg-RP-eSB">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="b9Y-Mu-22W">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--DJI OnBoardSDK-->
-        <scene sceneID="yl2-sM-qoP">
+        <!--Main Screen View Controller-->
+        <scene sceneID="Jcd-v3-Qi9">
             <objects>
-                <tabBarController id="49e-Tb-3d3" customClass="MOSMainTabViewController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="DJI OnBoardSDK" id="1NX-jV-eyT"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="83" y="-81"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="RGh-Bn-Jtg">
-            <objects>
-                <navigationController id="XGg-RP-eSB" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="odY-7U-CSl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        </textAttributes>
-                    </navigationBar>
+                <viewController id="b9Y-Mu-22W" customClass="MOSMainScreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Kf-wy-jKh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZII-L2-4Ml"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bDj-xa-5eU">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sG1-ji-3Jt" customClass="DULFPVView">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sG1-ji-3Jt" firstAttribute="top" secondItem="7Kf-wy-jKh" secondAttribute="bottom" id="3cY-QZ-Zph"/>
+                            <constraint firstItem="ZII-L2-4Ml" firstAttribute="top" secondItem="sG1-ji-3Jt" secondAttribute="bottom" id="8yT-7Z-G0F"/>
+                            <constraint firstItem="sG1-ji-3Jt" firstAttribute="width" secondItem="bDj-xa-5eU" secondAttribute="width" id="Tde-mK-HNW"/>
+                            <constraint firstItem="sG1-ji-3Jt" firstAttribute="centerX" secondItem="bDj-xa-5eU" secondAttribute="centerX" id="iQA-N2-cYs"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <segue destination="49e-Tb-3d3" kind="relationship" relationship="rootViewController" id="sFZ-JA-8sZ"/>
+                        <outlet property="fpvView" destination="sG1-ji-3Jt" id="cdW-Cj-uun"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AnJ-p2-f9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u4Z-p8-RA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-555" y="-81"/>
+            <point key="canvasLocation" x="-439.4021739130435" y="-278.26086956521743"/>
         </scene>
     </scenes>
 </document>

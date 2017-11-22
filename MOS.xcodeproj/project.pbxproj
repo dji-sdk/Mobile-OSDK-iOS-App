@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A693041F29234F00063E96 /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A693021F29233300063E96 /* VideoPreviewer.framework */; };
+		24A693051F29234F00063E96 /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24A693021F29233300063E96 /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24DB88C71F1EE5C000790EEC /* MOSMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DB88C61F1EE5C000790EEC /* MOSMainScreenViewController.m */; };
+		24DB890E1F21192200790EEC /* MOSSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DB890D1F21192200790EEC /* MOSSectionButton.m */; };
 		861CE7A61D3DE46700F33075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7A51D3DE46700F33075 /* main.m */; };
 		861CE7A91D3DE46700F33075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7A81D3DE46700F33075 /* AppDelegate.m */; };
 		861CE7B21D3DE46700F33075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861CE7B01D3DE46700F33075 /* Main.storyboard */; };
 		861CE7B41D3DE46700F33075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861CE7B31D3DE46700F33075 /* Assets.xcassets */; };
 		861CE7B71D3DE46700F33075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861CE7B51D3DE46700F33075 /* LaunchScreen.storyboard */; };
-		861CE7BF1D3DE49900F33075 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861CE7BE1D3DE49900F33075 /* DJISDK.framework */; };
-		861CE7C11D3DE49E00F33075 /* DJISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 861CE7BE1D3DE49900F33075 /* DJISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		861CE7D01D3DE7B800F33075 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 861CE7CF1D3DE7B800F33075 /* config.json */; };
 		861CE7E71D3E760500F33075 /* MOSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7DB1D3E760500F33075 /* MOSModel.m */; };
 		861CE7E81D3E760500F33075 /* MOSDynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7DE1D3E760500F33075 /* MOSDynamicTableViewCell.m */; };
 		861CE7E91D3E760500F33075 /* MOSDynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 861CE7DF1D3E760500F33075 /* MOSDynamicTableViewCell.xib */; };
 		861CE7EA1D3E760500F33075 /* MOSJSONDynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7E21D3E760500F33075 /* MOSJSONDynamicController.m */; };
 		861CE7EF1D3E761A00F33075 /* MOSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 861CE7EE1D3E761A00F33075 /* MOSAction.m */; };
-		8665E47A1D419BFB00E67120 /* MOSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E4791D419BFB00E67120 /* MOSMainTabViewController.m */; };
 		8665E47D1D419D1400E67120 /* MOSSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E47C1D419D1400E67120 /* MOSSection.m */; };
 		8665E4811D41A30300E67120 /* MOSProductCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E4801D41A30300E67120 /* MOSProductCommunicationManager.m */; };
 		8665E4851D4280DC00E67120 /* MOSLogConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8665E4831D4280DC00E67120 /* MOSLogConsoleViewController.m */; };
 		8665E4861D4280DC00E67120 /* MOSLogConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8665E4841D4280DC00E67120 /* MOSLogConsoleViewController.xib */; };
+		D45239E47A9298F67E7A8706 /* libPods-DJI O-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FDFE9DBDF117C9DBC5D82 /* libPods-DJI O-SDK.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A693011F29233300063E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A692F81F29232E00063E96 /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		24A693061F29234F00063E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A692F81F29232E00063E96 /* VideoPreviewer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A543FC1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		861CE7C21D3DE49F00F33075 /* Embed Frameworks */ = {
@@ -34,7 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				861CE7C11D3DE49E00F33075 /* DJISDK.framework in Embed Frameworks */,
+				24A693051F29234F00063E96 /* VideoPreviewer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +61,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24A692F81F29232E00063E96 /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = ../VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
+		24DB88C51F1EE5C000790EEC /* MOSMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSMainScreenViewController.h; sourceTree = "<group>"; };
+		24DB88C61F1EE5C000790EEC /* MOSMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSMainScreenViewController.m; sourceTree = "<group>"; };
+		24DB88F51F1FD0A900790EEC /* MOSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MOSConstants.h; path = MOS/MOSConstants.h; sourceTree = SOURCE_ROOT; };
+		24DB890C1F21192200790EEC /* MOSSectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSSectionButton.h; path = ../ViewController/MOSSectionButton.h; sourceTree = "<group>"; };
+		24DB890D1F21192200790EEC /* MOSSectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSSectionButton.m; path = ../ViewController/MOSSectionButton.m; sourceTree = "<group>"; };
+		7E3A9490B7FD3CA1D3CC4843 /* Pods-DJI O-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJI O-SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJI O-SDK/Pods-DJI O-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		861CE7A11D3DE46700F33075 /* DJI O-SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJI O-SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861CE7A51D3DE46700F33075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		861CE7A71D3DE46700F33075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +76,6 @@
 		861CE7B31D3DE46700F33075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861CE7B61D3DE46700F33075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861CE7B81D3DE46700F33075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		861CE7BE1D3DE49900F33075 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DJISDK.framework; sourceTree = "<group>"; };
 		861CE7CF1D3DE7B800F33075 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		861CE7DA1D3E760500F33075 /* MOSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSModel.h; sourceTree = "<group>"; };
 		861CE7DB1D3E760500F33075 /* MOSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSModel.m; sourceTree = "<group>"; };
@@ -61,8 +86,6 @@
 		861CE7E21D3E760500F33075 /* MOSJSONDynamicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSJSONDynamicController.m; sourceTree = "<group>"; };
 		861CE7ED1D3E761A00F33075 /* MOSAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSAction.h; sourceTree = "<group>"; };
 		861CE7EE1D3E761A00F33075 /* MOSAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSAction.m; sourceTree = "<group>"; };
-		8665E4781D419BFB00E67120 /* MOSMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSMainTabViewController.h; sourceTree = "<group>"; };
-		8665E4791D419BFB00E67120 /* MOSMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSMainTabViewController.m; sourceTree = "<group>"; };
 		8665E47B1D419D1400E67120 /* MOSSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSSection.h; sourceTree = "<group>"; };
 		8665E47C1D419D1400E67120 /* MOSSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSSection.m; sourceTree = "<group>"; };
 		8665E47F1D41A30300E67120 /* MOSProductCommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSProductCommunicationManager.h; sourceTree = "<group>"; };
@@ -70,6 +93,8 @@
 		8665E4821D4280DC00E67120 /* MOSLogConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSLogConsoleViewController.h; sourceTree = "<group>"; };
 		8665E4831D4280DC00E67120 /* MOSLogConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSLogConsoleViewController.m; sourceTree = "<group>"; };
 		8665E4841D4280DC00E67120 /* MOSLogConsoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MOSLogConsoleViewController.xib; sourceTree = "<group>"; };
+		A0B2E171F1D154AAAC98FC2E /* Pods-DJI O-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJI O-SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJI O-SDK/Pods-DJI O-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		FB8FDFE9DBDF117C9DBC5D82 /* libPods-DJI O-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJI O-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +102,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861CE7BF1D3DE49900F33075 /* DJISDK.framework in Frameworks */,
+				24A693041F29234F00063E96 /* VideoPreviewer.framework in Frameworks */,
+				D45239E47A9298F67E7A8706 /* libPods-DJI O-SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A692FE1F29233300063E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A693021F29233300063E96 /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A693031F29233800063E96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A692F81F29232E00063E96 /* VideoPreviewer.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A2B5E1B81B0CE5500326B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A9490B7FD3CA1D3CC4843 /* Pods-DJI O-SDK.debug.xcconfig */,
+				A0B2E171F1D154AAAC98FC2E /* Pods-DJI O-SDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		861CE7981D3DE46700F33075 = {
 			isa = PBXGroup;
 			children = (
 				861CE7A31D3DE46700F33075 /* MOS */,
 				861CE7A21D3DE46700F33075 /* Products */,
+				5A2B5E1B81B0CE5500326B21 /* Pods */,
+				F62F1CB2B04AF22863C12C6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +156,7 @@
 		861CE7A31D3DE46700F33075 /* MOS */ = {
 			isa = PBXGroup;
 			children = (
+				24DB88F51F1FD0A900790EEC /* MOSConstants.h */,
 				861CE7CF1D3DE7B800F33075 /* config.json */,
 				861CE7A71D3DE46700F33075 /* AppDelegate.h */,
 				861CE7A81D3DE46700F33075 /* AppDelegate.m */,
@@ -114,7 +168,7 @@
 				861CE7B31D3DE46700F33075 /* Assets.xcassets */,
 				861CE7B51D3DE46700F33075 /* LaunchScreen.storyboard */,
 				861CE7B81D3DE46700F33075 /* Info.plist */,
-				861CE7BE1D3DE49900F33075 /* DJISDK.framework */,
+				24A693031F29233800063E96 /* Frameworks */,
 				861CE7A41D3DE46700F33075 /* Supporting Files */,
 			);
 			path = MOS;
@@ -144,6 +198,8 @@
 		861CE7DC1D3E760500F33075 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				24DB890C1F21192200790EEC /* MOSSectionButton.h */,
+				24DB890D1F21192200790EEC /* MOSSectionButton.m */,
 				861CE7DD1D3E760500F33075 /* MOSDynamicTableViewCell.h */,
 				861CE7DE1D3E760500F33075 /* MOSDynamicTableViewCell.m */,
 				861CE7DF1D3E760500F33075 /* MOSDynamicTableViewCell.xib */,
@@ -154,8 +210,8 @@
 		861CE7E01D3E760500F33075 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8665E4781D419BFB00E67120 /* MOSMainTabViewController.h */,
-				8665E4791D419BFB00E67120 /* MOSMainTabViewController.m */,
+				24DB88C51F1EE5C000790EEC /* MOSMainScreenViewController.h */,
+				24DB88C61F1EE5C000790EEC /* MOSMainScreenViewController.m */,
 				861CE7E11D3E760500F33075 /* MOSJSONDynamicController.h */,
 				861CE7E21D3E760500F33075 /* MOSJSONDynamicController.m */,
 				8665E4821D4280DC00E67120 /* MOSLogConsoleViewController.h */,
@@ -175,6 +231,14 @@
 			path = MOS/Network;
 			sourceTree = SOURCE_ROOT;
 		};
+		F62F1CB2B04AF22863C12C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FDFE9DBDF117C9DBC5D82 /* libPods-DJI O-SDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,15 +246,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861CE7BB1D3DE46700F33075 /* Build configuration list for PBXNativeTarget "DJI O-SDK" */;
 			buildPhases = (
+				36EE2A1285506228CC7F8360 /* [CP] Check Pods Manifest.lock */,
 				861CE79D1D3DE46700F33075 /* Sources */,
 				861CE79E1D3DE46700F33075 /* Frameworks */,
 				861CE79F1D3DE46700F33075 /* Resources */,
 				861CE7C21D3DE49F00F33075 /* Embed Frameworks */,
 				861CE7F01D3E772400F33075 /* Additional Warnings */,
+				A1D699E2E818BBDAD71D587E /* [CP] Embed Pods Frameworks */,
+				00EDF42E836A4753AED1473C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				24A693071F29234F00063E96 /* PBXTargetDependency */,
 			);
 			name = "DJI O-SDK";
 			productName = MOS;
@@ -208,7 +276,8 @@
 				TargetAttributes = {
 					861CE7A01D3DE46700F33075 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4GX8G8B9GJ;
+						DevelopmentTeam = 4WMLJGLE24;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -223,12 +292,28 @@
 			mainGroup = 861CE7981D3DE46700F33075;
 			productRefGroup = 861CE7A21D3DE46700F33075 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 24A692FE1F29233300063E96 /* Products */;
+					ProjectRef = 24A692F81F29232E00063E96 /* VideoPreviewer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				861CE7A01D3DE46700F33075 /* DJI O-SDK */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		24A693021F29233300063E96 /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = 24A693011F29233300063E96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		861CE79F1D3DE46700F33075 /* Resources */ = {
@@ -247,6 +332,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00EDF42E836A4753AED1473C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJI O-SDK/Pods-DJI O-SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EE2A1285506228CC7F8360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJI O-SDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		861CE7F01D3E772400F33075 /* Additional Warnings */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +379,26 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
 		};
+		A1D699E2E818BBDAD71D587E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DJI O-SDK/Pods-DJI O-SDK-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJI-UILibrary-iOS/iOS_UILibrary/DJIUILibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJIUILibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJI O-SDK/Pods-DJI O-SDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -270,18 +408,27 @@
 			files = (
 				861CE7E71D3E760500F33075 /* MOSModel.m in Sources */,
 				8665E4851D4280DC00E67120 /* MOSLogConsoleViewController.m in Sources */,
-				8665E47A1D419BFB00E67120 /* MOSMainTabViewController.m in Sources */,
+				24DB88C71F1EE5C000790EEC /* MOSMainScreenViewController.m in Sources */,
 				861CE7A91D3DE46700F33075 /* AppDelegate.m in Sources */,
 				8665E47D1D419D1400E67120 /* MOSSection.m in Sources */,
 				861CE7A61D3DE46700F33075 /* main.m in Sources */,
 				861CE7EF1D3E761A00F33075 /* MOSAction.m in Sources */,
 				861CE7E81D3E760500F33075 /* MOSDynamicTableViewCell.m in Sources */,
+				24DB890E1F21192200790EEC /* MOSSectionButton.m in Sources */,
 				8665E4811D41A30300E67120 /* MOSProductCommunicationManager.m in Sources */,
 				861CE7EA1D3E760500F33075 /* MOSJSONDynamicController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24A693071F29234F00063E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoPreviewer;
+			targetProxy = 24A693061F29234F00063E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		861CE7B01D3DE46700F33075 /* Main.storyboard */ = {
@@ -389,8 +536,12 @@
 		};
 		861CE7BC1D3DE46700F33075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3A9490B7FD3CA1D3CC4843 /* Pods-DJI O-SDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4WMLJGLE24;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -399,16 +550,21 @@
 				INFOPLIST_FILE = MOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS2.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		861CE7BD1D3DE46700F33075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B2E171F1D154AAAC98FC2E /* Pods-DJI O-SDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4WMLJGLE24;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,8 +573,9 @@
 				INFOPLIST_FILE = MOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.MOS2.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -19,6 +19,8 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    self.backgroundColor = [UIColor clearColor];
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
     // Initialization code
 }
 
@@ -41,7 +43,7 @@
 - (void)populateWithActionModel:(MOSAction *)actionModel {
     self.actionModel = actionModel;
     
-    self.cmdIdLabel.text = [NSString stringWithFormat:@"%@", actionModel.cmdID];
+    self.cmdIdLabel.text = @"";
     self.commandLabel.text = actionModel.label;
     self.commandInformation.text = actionModel.information;
     self.commandResultLabel.text = @"";

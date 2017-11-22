@@ -7,6 +7,7 @@
 //
 
 #import "MOSProductCommunicationManager.h"
+#import "MOSConstants.h"
 #import "AppDelegate.h"
 #import "MOSModel.h"
 
@@ -116,7 +117,7 @@
         [self.appDelegate.model addLog:@"Connecting to Product"];
 
 #if USE_BRIDGE_APP
-        [DJISDKManager enableBridgeModeWithBridgeAppIP:@"10.128.129.34"];
+        [DJISDKManager enableBridgeModeWithBridgeAppIP:kBridgeAppIP];
 #else
         BOOL startedResult = [DJISDKManager startConnectionToProduct];
         
@@ -125,6 +126,7 @@
         } else {
             [self.appDelegate.model addLog:@"Connecting to Product failed to start"];
         }
+    
 #endif
     }
 }
