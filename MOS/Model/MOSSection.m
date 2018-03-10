@@ -35,8 +35,7 @@
 {
     NSMutableArray *actions = [NSMutableArray new];
     
-    NSInteger index = 0;
-    for (index = 0; index < jsonArray.count; index++)
+    for (NSInteger index = 0; index < jsonArray.count; index++)
     {
         NSDictionary *jsonAction = [jsonArray objectAtIndex:index];
         

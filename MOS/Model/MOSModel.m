@@ -40,9 +40,8 @@
         [self.jsonSections removeAllObjects];
         
         NSArray *allKeys = jsonConfigFile.allKeys;
-        NSInteger index = 0;
-        
-        for (index = 0; index < allKeys.count; index++)
+
+        for (NSInteger index = 0; index < allKeys.count; index++)
         {            
             NSString *sectionName = [allKeys objectAtIndex:index];
             NSArray *jsonContent = [jsonConfigFile objectForKey:sectionName];
