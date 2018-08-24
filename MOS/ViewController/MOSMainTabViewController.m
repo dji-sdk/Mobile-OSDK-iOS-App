@@ -26,9 +26,8 @@
     NSMutableArray *viewControllers = [NSMutableArray new];
     MOSJSONDynamicController *selectedViewController = nil;
     NSArray *allSections = [self.appDelegate.model jsonSections];
-    NSUInteger index = 0;
-    
-    for (index = 0; index < allSections.count; index++)
+
+    for (NSUInteger index = 0; index < allSections.count; index++)
     {
         MOSSection *section = allSections[index];
         MOSJSONDynamicController *newController = [[MOSJSONDynamicController alloc] initWithStyle:UITableViewStylePlain];
